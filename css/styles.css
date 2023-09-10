@@ -10,24 +10,26 @@ span {
   color: #2e2f42;
 }
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
 .header-adress-link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
 }
 .header-adress-link:hover,
-.header-adress-link:focus {
-  color: #404bbf;
+.header-adress-link:focus,
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
   background-color: #404bbf;
@@ -37,7 +39,7 @@ span {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
 }
 .heading {
   background-color: #2e2f42;
@@ -48,7 +50,7 @@ h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
 }
 .team_page_item {
   font-weight: 700;
@@ -56,7 +58,7 @@ h1 {
   line-height: 1.111;
   text-align: center;
   color: #2e2f42;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
 }
 .portfolio_page_item {
   font-weight: 700;
@@ -64,7 +66,7 @@ h1 {
   line-height: 1.11;
   text-align: center;
   color: #2e2f42;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .portfolio_item {
@@ -73,7 +75,7 @@ h1 {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
 }
 h3 {
   font-weight: 500;
@@ -89,12 +91,12 @@ h3 {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  letter-spacing: 4px;
+  letter-spacing: 0.04em;
 }
 p {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
 }
 .team_page,
 .portfolio_page {
@@ -103,7 +105,7 @@ p {
 .team_name,
 .team_job {
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 0.02em;
 }
 a {
   text-decoration: none;
