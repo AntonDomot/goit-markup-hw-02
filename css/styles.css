@@ -3,9 +3,6 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
-header {
-  background-color: #e7e9fc;
-}
 span {
   color: #2e2f42;
 }
@@ -76,7 +73,6 @@ span {
 .portfolio_item,
 .team_name,
 .priorities {
-  background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -104,8 +100,7 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.team_page,
-.portfolio_page {
+.team_page {
   background-color: #f4f4fd;
 }
 .team_name,
