@@ -83,7 +83,7 @@ span {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-.button_order {
+.btn {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -93,8 +93,8 @@ span {
   color: #ffffff;
   letter-spacing: 0.04em;
 }
-.button_order:hover,
-.button_order:focus {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
 }
 .page_p_one,
@@ -134,5 +134,6 @@ address {
 .logo_foot {
   color: #f4f4fd;
 }
-.priorities {
+.team_fone {
+  background-color: #ffffff;
 }
