@@ -26,9 +26,7 @@ span {
   letter-spacing: 0.02em;
 }
 .header-adress-link:hover,
-.header-adress-link:focus,
-.header-nav-link:hover,
-.header-nav-link:focus {
+.header-adress-link:focus {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
@@ -41,12 +39,19 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #404bbf;
+}
 .heading {
   background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
 }
-h1 {
+.heading_title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -55,10 +60,11 @@ h1 {
 .team_page_item {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .portfolio_page_item {
   font-weight: 700;
@@ -69,7 +75,8 @@ h1 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.portfolio_item {
+.portfolio_item,
+.unvizible {
   background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
@@ -77,13 +84,7 @@ h1 {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
-}
-.Button_order {
+.button_order {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -93,7 +94,8 @@ h3 {
   color: #ffffff;
   letter-spacing: 0.04em;
 }
-p {
+.page_p1,
+.page_p3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -115,4 +117,16 @@ ul {
 }
 address {
   font-style: normal;
+}
+.foot {
+  background-color: #2e2f42;
+}
+.foot_page {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo_foot {
+  color: #f4f4fd;
 }
