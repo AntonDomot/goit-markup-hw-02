@@ -8,19 +8,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка сайту містить навігацію та контактні дані-->
     <header>
       <nav>
-        <a href="./index.html" class="logo">
-          <span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span></a
-        >
+        <a href="./index.html" class="logo">Web<span>Studio</span></a>
         <ul>
           <li>
-            <a href="" class="header-nav-link">Studio</a>
+            <a href="./index.html" class="header-nav-link">Studio</a>
           </li>
           <li>
             <a href="" class="header-nav-link">Portfolio</a>
@@ -30,7 +33,7 @@
           </li>
         </ul>
       </nav>
-      <address>
+      <address class="header-adress">
         <ul>
           <li>
             <a href="mailto:info@devstudio.com" class="header-adress-link"
@@ -49,7 +52,7 @@
       <!--Заголовок та кнопка-->
       <section class="heading">
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button type="button" class="Button_order">Order Service</button>
       </section>
       <!--1 частина сайту-->
       <section>
@@ -86,7 +89,7 @@
         </ul>
       </section>
       <section class="team_page">
-        <h2>Our Team</h2>
+        <h2 class="team_page_item">Our Team</h2>
         <ul>
           <li>
             <img
@@ -131,7 +134,7 @@
         </ul>
       </section>
       <section class="portfolio_page">
-        <h2>Our Portfolio</h2>
+        <h2 class="portfolio_page_item">Our Portfolio</h2>
         <ul>
           <li>
             <a href="">
@@ -141,7 +144,7 @@
                 width="360"
                 height="300"
             /></a>
-            <h3>Banking App</h3>
+            <h3 class="portfolio_item">Banking App</h3>
             <p>App</p>
           </li>
           <li>
@@ -152,7 +155,7 @@
                 width="360"
                 height="300"
             /></a>
-            <h3>Cashless Payment</h3>
+            <h3 class="portfolio_item">Cashless Payment</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -163,7 +166,7 @@
                 width="360"
                 height="300"
             /></a>
-            <h3>Meditation App</h3>
+            <h3 class="portfolio_item">Meditation App</h3>
             <p>App</p>
           </li>
           <li>
@@ -174,7 +177,7 @@
                 width="360"
                 height="300"
             /></a>
-            <h3>Taxi Service</h3>
+            <h3 class="portfolio_item">Taxi Service</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -185,7 +188,7 @@
                 width="360"
                 height="300"
             /></a>
-            <h3>Screen Illustrations</h3>
+            <h3 class="portfolio_item">Screen Illustrations</h3>
             <p>Design</p>
           </li>
           <li>
@@ -196,7 +199,7 @@
                 width="360"
                 height="300"
             /></a>
-            <h3>Online Courses</h3>
+            <h3 class="portfolio_item">Online Courses</h3>
             <p>Marketing</p>
           </li>
         </ul>
