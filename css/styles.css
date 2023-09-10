@@ -74,8 +74,8 @@ span {
   text-transform: capitalize;
 }
 .portfolio_item,
-.unvizible,
-.team_name {
+.team_name,
+.priorities {
   background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
