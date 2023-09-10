@@ -27,10 +27,9 @@ span {
 }
 .header-adress-link:hover,
 .header-adress-link:focus {
-  color: #2e2f42;
+  color: #404bbf;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #404bbf;
 }
 .header-nav-link {
   color: #2e2f42;
@@ -41,10 +40,9 @@ span {
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
-  color: #2e2f42;
+  color: #404bbf;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #404bbf;
 }
 .heading {
   background-color: #2e2f42;
@@ -76,7 +74,8 @@ span {
   text-transform: capitalize;
 }
 .portfolio_item,
-.unvizible {
+.unvizible,
+.team_name {
   background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
@@ -94,8 +93,13 @@ span {
   color: #ffffff;
   letter-spacing: 0.04em;
 }
-.page_p1,
-.page_p3 {
+.button_order:hover,
+.button_order:focus {
+  background-color: #404bbf;
+}
+.page_p_one,
+.page_p_three,
+.team_job {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -129,4 +133,6 @@ address {
 }
 .logo_foot {
   color: #f4f4fd;
+}
+.priorities {
 }
